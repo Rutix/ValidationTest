@@ -14,7 +14,7 @@ namespace ValidationTest.Unittest
 			var sut = new Foobar()
 			{
 				Bar = "Bar",
-				Foo = "Foo"
+				Foo = "foo"
 			};
 
 			var errors = Validate(sut);
