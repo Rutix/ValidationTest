@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationTest", "ValidationTest\ValidationTest.csproj", "{ABD5C5FF-2637-47A5-A308-80BB150CB8C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationTest", "ValidationTest\ValidationTest.csproj", "{ABD5C5FF-2637-47A5-A308-80BB150CB8C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationTest.Unittest", "ValidationTest.Unittest\ValidationTest.Unittest.csproj", "{D3D41A6D-5575-468D-B896-5B46DDF08785}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ABD5C5FF-2637-47A5-A308-80BB150CB8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABD5C5FF-2637-47A5-A308-80BB150CB8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABD5C5FF-2637-47A5-A308-80BB150CB8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D41A6D-5575-468D-B896-5B46DDF08785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D41A6D-5575-468D-B896-5B46DDF08785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D41A6D-5575-468D-B896-5B46DDF08785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D41A6D-5575-468D-B896-5B46DDF08785}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
